@@ -4,7 +4,7 @@ import Contacto from './components/Contacto.jsx';
 function App() {
 
   return (
-    <BrowserRouter basename='/Gestion-de-contactos-proyecto-final-Grupo3'>
+    <BrowserRouter basename='/proyecto-final-programacion-web-1/'>
       <Routes>
         <Route path="/" element={<Contacto />} />
       </Routes>
