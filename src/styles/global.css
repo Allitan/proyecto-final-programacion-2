@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  background: #f8f9fa;
+  color: #212529;
+  font-family: 'Inter', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #117ACD;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #117ACD;
+  padding-bottom: 0.5rem;
+}
+
+.table {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  color: #212529;
+  font-size: 0.95rem;
+  overflow: hidden;
+}
+
+.table th {
+  background-color: #117ACD;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table td {
+  background-color: #f1f3f5;
+  vertical-align: middle;
+  padding: 0.75rem;
+}
+
+.table tr:hover td {
+  background-color: #e2e6ea;
+}
+
+.btn {
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.btn-primary {
+  background-color: #209115;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #096f21;
+}
+
+.btn-warning {
+  background-color: #e6a429;
+  border: none;
+  color: #2e3238;
+}
+
+.btn-warning:hover {
+  background-color: #ba8915;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #bb2d3b;
+}
+
+.input-group-text {
+  background-color: #dee2e6;
+  color: #212529;
+  border: 1px solid #ced4da;
+}
+
+.form-control {
+  background-color: #ffffff;
+  color: #212529;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+}
+
+.form-control:focus {
+  border-color: #0d3b66;
+  box-shadow: 0 0 0 0.2rem rgba(13, 59, 102, 0.25);
+}
+
+.modal-content {
+  background-color: #ffffff;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+}
+
+input::placeholder {
+  color: #484b4d;
+}
