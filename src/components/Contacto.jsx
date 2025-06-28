@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Campo from "./Campo";
 import EliminarContacto from "../eliminar/EliminarContacto";
-import { alertaWarning } from "../utils/alertas";
+import { alertaWarning } from "../utils/Alertas";
 
 const Contacto = () => {
   const [contactos, setContactos] = useState([]);
@@ -122,7 +122,7 @@ const Contacto = () => {
                     <button className="btn btn-warning btn-sm me-2" onClick={() => handleEditar(c.correo)}>
                       <i className="fa-solid fa-pen-to-square" />
                     </button>
-                    <EliminarContacto contacto={c} contactos={contactos} setContactos={setContactos} />
+                    <EliminarContacto index={i} contacto={c} contactos={contactos} setContactos={setContactos} />
                   </td>
                 </tr>
               ))
